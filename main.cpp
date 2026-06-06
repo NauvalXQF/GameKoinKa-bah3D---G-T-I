@@ -195,7 +195,7 @@ void drawMinimap() {
     glDisable(GL_DEPTH_TEST);
     glDisable(GL_LIGHTING);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-    glEnable(GL_BLEND);
+        glEnable(GL_BLEND);
 
     // Background
     glColor4f(0.0f, 0.0f, 0.0f, 0.5f);
